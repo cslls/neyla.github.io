@@ -17,7 +17,7 @@
 
 @media all and (max-width:800px) {
     html, body {
-        height: 100dvh !important;
+        height: 100vh !important;
     }
     .header h1 {
         font-size: 37pt !important;
@@ -39,7 +39,7 @@
 
 @media all and (max-width:500px) {
     html, body {
-        height: 100dvh !important;
+        height: 100vh !important;
     }
     .telephone {
         width: 270px !important;
@@ -61,7 +61,7 @@
 @media all and (max-width:300px) {
 
     html, body {
-        height: 100dvh !important;
+        height: 100vh !important;
     }
     .modal {
         transform: scale(0.5);
@@ -97,7 +97,7 @@
 
 html {
     margin: 0;
-    height: 100dvh;
+    height: 100%;
 }
 
 body {
@@ -108,7 +108,7 @@ body {
     display:flex;
 
     flex-direction: column;
-    height: 100dvh;
+    height: 100%;
 }
 
 body.bodypr {
@@ -457,9 +457,21 @@ input:focus {
     padding: 4%;
 }
 
+.contacta {
+    color: #fffacd;
+    text-decoration: none;
 
+}
 
+.contacta:hover {
+    color: #fffacd;
+}
 
+.footer {
+    font-family: "Font";
+    font-size: 15pt;
+
+}
 
 p.footer {
     margin: 5px;
