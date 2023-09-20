@@ -97,7 +97,7 @@
 
 html {
     margin: 0;
-    height: 100%;
+    height: 100dvh;
 }
 
 body {
@@ -108,7 +108,7 @@ body {
     display:flex;
 
     flex-direction: column;
-    height: 100%;
+    height: 100dvh;
 }
 
 body.bodypr {
@@ -457,21 +457,9 @@ input:focus {
     padding: 4%;
 }
 
-.contacta {
-    color: #fffacd;
-    text-decoration: none;
 
-}
 
-.contacta:hover {
-    color: #fffacd;
-}
 
-.footer {
-    font-family: "Font";
-    font-size: 15pt;
-
-}
 
 p.footer {
     margin: 5px;
@@ -518,7 +506,7 @@ header {
 
 .maincontent {
     /* 1 flex-grow, 0 flex-shrink, auto flex-basis */
-    flex: 0 0 auto;
+    flex: 1 0 auto;
 }
 
 .about {
