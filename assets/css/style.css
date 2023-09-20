@@ -17,7 +17,7 @@
 
 @media all and (max-width:800px) {
     html, body {
-        height: 100lvh !important;
+        height: 100dvh !important;
     }
     .header h1 {
         font-size: 37pt !important;
@@ -39,7 +39,7 @@
 
 @media all and (max-width:500px) {
     html, body {
-        height: 100lvh !important;
+        height: 100dvh !important;
     }
     .telephone {
         width: 270px !important;
@@ -61,7 +61,7 @@
 @media all and (max-width:300px) {
 
     html, body {
-        height: 100lvh !important;
+        height: 100dvh !important;
     }
     .modal {
         transform: scale(0.5);
@@ -80,7 +80,7 @@
 @media all and (max-height : 760px) {
     
     .embed-responsive {
-        height: 70dvh;
+        height: 70vh;
     }
     
 }
@@ -97,7 +97,7 @@
 
 html {
     margin: 0;
-    height: 100lvh;
+    height: 100dvh;
 }
 
 body {
@@ -108,7 +108,7 @@ body {
     display:flex;
 
     flex-direction: column;
-    height: 100lvh;
+    height: 100dvh;
 }
 
 body.bodypr {
