@@ -17,10 +17,13 @@
 
 @media all and (max-width:800px) {
     html, body {
-        height: 100dvh !important;
+        height: 100vh !important;
     }
     .header h1 {
         font-size: 37pt !important;
+    }
+    .about {
+        height: auto;
     }
 
     .number {
@@ -39,7 +42,10 @@
 
 @media all and (max-width:500px) {
     html, body {
-        height: 100dvh !important;
+        height: 100vh !important;
+    }
+    .about {
+        height: auto;
     }
     .telephone {
         width: 270px !important;
@@ -61,7 +67,10 @@
 @media all and (max-width:300px) {
 
     html, body {
-        height: 100dvh !important;
+        height: 100vh !important;
+    }
+    .about {
+        height: auto;
     }
     .modal {
         transform: scale(0.5);
@@ -97,7 +106,7 @@
 
 html {
     margin: 0;
-    height: 100dvh;
+    height: 100vh;
 }
 
 body {
@@ -108,7 +117,7 @@ body {
     display:flex;
 
     flex-direction: column;
-    height: 100dvh;
+    height: 100vh;
 }
 
 body.bodypr {
